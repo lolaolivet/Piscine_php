@@ -86,3 +86,24 @@ body
     -moz-box-shadow: 7px 7px 7px #000;
     box-shadow: 7px 7px 7px #0c0c0c;
 }
+.book
+{
+    margin: 20px auto;
+    display: block;
+    height: 90px;
+}
+.towel
+{
+    display: block;
+    height: 50px;
+    margin: 20px auto;
+
+}
+.brick
+{
+    display: block;
+    height: 70px;
+    width: 115px;
+    margin: 20px auto;
+    background-image: src();
+}
