@@ -1,0 +1,2 @@
+DROP DATABASE IF EXISTS db_lolivet;
+CREATE DATABASE db_lolivet;

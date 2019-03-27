@@ -1,0 +1,12 @@
+
+<- Vertex ----------------------------------------------------------------------
+The Vertex class handles points in the space.
+
+An instance can be constructed from x, y and z value that are obligatory and
+with two optional values w and color:
+new Vertex( array( 'x' => 0.0, 'y' => 0.0, 'z' => 0.0, 'w' => 1.0,
+'color' => 0xffffff ) );
+
+The color value is an instance of the Color class, it refresh the color to
+white. The w value is by default set to 1.0.
+---------------------------------------------------------------------- Vertex ->

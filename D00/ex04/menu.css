@@ -1,0 +1,60 @@
+nav
+{
+    border-bottom: 1px solid #eb566a;
+}
+
+.menu, .menu ul
+{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: center;
+}
+
+.menu a
+{
+    font-family: Futura;
+    text-decoration: none;
+    display: block;
+    padding: 8px 32px;
+    color: #eb566a;
+    background-color: whitesmoke;
+    border-radius: 2px;
+}
+
+.menu li
+{
+    display: inline-block;
+    position: relative;
+    border-radius: 5px;
+}
+
+.menu ul li
+{
+    display: inherit;
+    border-radius: 0;
+}
+
+.menu ul
+{
+    position: absolute;
+    z-index: 1000;
+    max-height: 0;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+    -moz-transition: .3s all .3s;
+    -webkit-transition: .3s all .3s;
+    transition: .3s all .3s;
+}
+
+.menu li:hover ul
+{
+    max-height: 15em;
+}
+
+.menu ul li a:hover
+{
+    background-color: #eb566a;
+    color: whitesmoke;
+}

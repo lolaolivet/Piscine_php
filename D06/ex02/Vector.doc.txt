@@ -1,0 +1,39 @@
+
+<- Vector ----------------------------------------------------------------------
+The Vector class handles vectors that are instance of the Vertex class.
+
+An instance can be constructed from a destination that is obligatory and that
+contains an x, y, z and optionaly w, and an origin based on the same content.
+new Vector( array( 'dest' => new (Vertex array('x' => 0.0, 'y' => 0.0, 'z' => 0.0,
+ 'w' => 1.0, 'color' => 0xffffff ) ) ) );
+
+The class provides the following methods :
+
+Float   magnitude( );
+Calculate the magnitude of a vector.
+
+Vector  normalize( );
+Return a normalized vector.
+
+Vector  add( Vector $rhs );
+Return the vector product of the addition of two vectors.
+
+Vector  sub( Vector $rhs );
+Return the vector difference of substitution of two vectors.
+
+Vector  opposition( );
+Return the vector opposite.
+
+Vector  scalarProduct( $k );
+Calculate the scalar product of a vector.
+
+Float   dotProduct( Vector $rhs );
+Calculate the dot Product of two vectors;
+
+Float   cos( Vector $rhs );
+Calculate the cos of the angle between two vectors.
+
+Vector  crossProduct( Vector $rhs );
+Calculate the vector resulting of a cross product between two vectors.
+
+---------------------------------------------------------------------- Vector ->
